@@ -3,7 +3,7 @@ package hello;
 import org.joda.time.LocalTime;
 
 // Add a comment
-
+// Here is my comment!
 public class HelloWorld 
 {
 	/* master comment */
