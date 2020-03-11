@@ -32,4 +32,16 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
 
+   @Test
+   @DisplayName("Test for Name='Courtney Battle'")
+   public void testGreeterCourtneyBattle() 
+   {
+
+      g.setName("Courtney Battle");
+      assertEquals(g.getName(),"Courtney Battle");
+      assertEquals(g.sayHello(),"Hello Courtney Battle!");
+   }
+
+  
+
 }
